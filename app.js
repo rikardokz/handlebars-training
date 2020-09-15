@@ -10,9 +10,9 @@ const context = {
   age: 34,
   motivated: true,
   month: [1, 2, 3, 4, 5, 6, 7, 8, 9],
+  frameworks: [{ name: "React" }, { name: "Vue" }, { name: "Angular" }],
 };
 
-console.log(context.motivated);
 // added the context to a template
 const compiledHtml = template(context);
 // selected a html element in the "real" html
