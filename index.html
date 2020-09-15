@@ -18,6 +18,20 @@
         <h2>
           I'm {{age}} years old
         </h2>
+        {{#if motivated}}
+          <p>
+            And i'm very motivated
+          </p>
+        {{else}}
+          <p>
+            And i'm NOT motivated
+          </p>
+        {{/if}}
+        {{#each month}}
+          <div id="here">
+            {{this}}
+          </div>
+        {{/each}}
       </div>
     </script>
   </head>
